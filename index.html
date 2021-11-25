@@ -16,6 +16,7 @@
     <header>
         <h1>Horiseon</h1>
         <nav>
+            <p class="sr_link">The following links redirect elsewhere on this page.</p> <!-- Hidden description for screen-reader users (does not display visually) --> 
           <ul>
             <li>
               <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -32,15 +33,17 @@
         </nav>
     </header>
     
-    <div class="hero"></div>
+    <div class="hero-image"></div>
 
     <div class="content">
-      <div class="search-engine-optimization">
+      <div 
+        id="search-engine-optimization"
+        class="search-engine-optimization">
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
+          alt="Exercise book surrounded by office supplies."
         />
-        <!-- TODO: accessible alt attribute -->
         <h2>Search Engine Optimization</h2>
         <p>
           The dominance of mobile internet use means that users are searching
@@ -56,8 +59,8 @@
         <img
           src="./assets/images/online-reputation-management.jpg"
           class="float-right"
+          alt="Worker holding phone and typing on laptop simultaneously."
         />
-        <!-- TODO: accessible alt attribute -->
         <h2>Online Reputation Management</h2>
         <p>
           The web is full of opinions, and some of these can be negative. Social
@@ -71,6 +74,7 @@
         <img
           src="./assets/images/social-media-marketing.jpg"
           class="float-left"
+          alt="Busy conference table with colourful social media icons."
         />
         <h2>Social Media Marketing</h2>
         <p>
@@ -84,8 +88,7 @@
     <div class="benefits">
       <div class="benefit-lead">
         <h3>Lead Generation</h3>
-        <img src="./assets/images/lead-generation.png" />
-        <!-- TODO: accessible alt attribute -->
+        <img src="./assets/images/lead-generation.png"/>
         <p>
           Inbound strategies for lead generation require less work for your
           business, bringing customers directly to your website.
@@ -111,8 +114,7 @@
       </div>
     </div>
     <div class="footer">
-      <h2>Made with ❤️️ by Horiseon</h2>
-      <!-- Will this icon display on all browsers? -->
+      <h4>Made with ❤️️ by Horiseon</h4>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
     </div>
   </body>

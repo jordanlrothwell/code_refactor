@@ -42,11 +42,21 @@ a {
     text-decoration: none;
 }
 
+.sr_link {
+    clip: rect(1px 1px 1px 1px); 
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 p {
     font-size: 16px;
 }
 
-.hero {
+.hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -191,6 +201,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
