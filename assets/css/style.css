@@ -23,18 +23,18 @@ header h1 {
   font-size: 48px;
 }
 
-header nav {
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-size: 20px;
 }
 
-header nav ul {
+nav ul {
   list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -47,6 +47,8 @@ p {
   font-size: 16px;
 }
 
+/* This code visually hides the element, but leaves it accessible to screen readers. */
+
 .sr_link {
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -56,6 +58,8 @@ p {
   white-space: nowrap;
   width: 1px;
 }
+
+/* The image this applies to does not contain meaningful content; it has therefore been left */
 
 .hero-image {
   height: 800px;

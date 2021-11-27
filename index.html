@@ -1,3 +1,10 @@
+<!-- ===========================================================================
+     TODO: Move pictures from html to background images in the CSS. They are 
+       exclusively decorative, and will slow down screen readers. 
+    
+     ALTERNATIVE: Give these images blank alt attributes.
+============================================================================ -->
+
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -12,8 +19,8 @@
     <header>
         <h1>Horiseon</h1>
         <nav>
-            <p class="sr_link">The following are local links.</p>
-            <!-- This description increases accessibility for screen readers. It is not displayed visually. -->
+            <p class="sr_link">The following are local links. They redirect elsewhere on the page.</p>
+            <!-- This description is intended to increase accessibility, and is visible to screen readers. It is not displayed visually. -->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -30,8 +37,9 @@
 
     <div class="hero-image"></div>
 
+    
     <main>
-        <div class="main_content">
+        <div class="main_content" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
                 alt="Exercise book surrounded by office supplies." />
             <h2>Search Engine Optimization</h2>
@@ -42,7 +50,7 @@
                 visibility and find the right customers for your business.
             </p>
         </div>
-        <div class="main_content">
+        <div class="main_content" id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right"
                 alt="Worker holding phone and typing on laptop simultaneously." />
             <h2>Online Reputation Management</h2>
@@ -54,7 +62,7 @@
                 business.
             </p>
         </div>
-        <div class="main_content">
+        <div class="main_content" id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left"
                 alt="Busy conference table with colourful social media icons." />
             <h2>Social Media Marketing</h2>
@@ -67,11 +75,12 @@
         </div>
     </main>
     <section>
-    <!-- The icons in this section are hidden from screen readers but displayed visually-->
+        <!-- The icons in this section are hidden from screen readers, but displayed visually. -->
         <div class="benefits">
             <h3>Lead Generation</h3>
             <div aria-hidden="true">
-                <img src="./assets/images/lead-generation.png" alt="Small icon depicting the concept." />
+                <img src="./assets/images/lead-generation.png"
+                    alt="Funnel with gear at top and money coming out bottom." />
             </div>
             <p>
                 Inbound strategies for lead generation require less work for your
@@ -81,7 +90,7 @@
         <div class="benefits">
             <h3>Brand Awareness</h3>
             <div aria-hidden="true">
-                <img src="./assets/images/brand-awareness.png" alt="Small icon depicting the concept." />
+                <img src="./assets/images/brand-awareness.png" alt="Suit jacket with light bulb in place of head." />
             </div>
             <p>
                 Users find your business through paid and organic searches, increasing
@@ -91,7 +100,7 @@
         <div class="benefits">
             <h3>Cost Management</h3>
             <div aria-hidden="true">
-                <img src="./assets/images/cost-management.png" alt="Small icon depicting the concept" />
+                <img src="./assets/images/cost-management.png" alt="Gear surrounded by coins." />
             </div>
             <p>
                 As the search ranking for your business increases, your advertising
