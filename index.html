@@ -1,26 +1,22 @@
-<!-- ===========================================================================
-     TODO: Move pictures from html to background images in the CSS. They are 
-       exclusively decorative, and will slow down screen readers. 
-    
-     ALTERNATIVE: Give these images blank alt attributes.
-============================================================================ -->
-
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Company name follows description of content (accessibility/SEO best practice). -->
     <title>Search Engine Optimization, Online Reputation Management, Social Media Marketing - Horiseon Social Solution
         Services</title>
 </head>
 
 <body>
+
+    <!-- Header containing navigation links (the only interactive elements on the page). -->
     <header>
         <h1>Horiseon</h1>
         <nav>
-            <p class="sr_link">The following are local links. They redirect elsewhere on the page.</p>
-            <!-- This description is intended to increase accessibility, and is visible to screen readers. It is not displayed visually. -->
+            <!-- The description below is only visible to screen readers, and makes it clear that they local (rather than external) links. -->
+            <p class="sr_link">The following local navigation links redirect focus to the main page content.</p>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -35,24 +31,25 @@
         </nav>
     </header>
 
+    <!-- Hero image - the corresponding CSS displays it as a background image (no alt description). -->
     <div class="hero-image"></div>
 
-    
+    <!-- Container for the page's main content. -->
     <main>
         <div class="main_content" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
-                alt="Exercise book surrounded by office supplies." />
+                alt="" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching
-                for the right business as they travel, shop, or sit on their couch at`
+                for the right business as they travel, shop, or sit on their couch at
                 home. Search Engine Optimization (SEO) allows you to increase your
                 visibility and find the right customers for your business.
             </p>
         </div>
         <div class="main_content" id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right"
-                alt="Worker holding phone and typing on laptop simultaneously." />
+                alt="" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social
@@ -64,7 +61,7 @@
         </div>
         <div class="main_content" id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left"
-                alt="Busy conference table with colourful social media icons." />
+                alt="" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits.
@@ -74,13 +71,15 @@
             </p>
         </div>
     </main>
+
+    <!-- Container for right-hand side of page. -->
     <section>
-        <!-- The icons in this section are hidden from screen readers, but displayed visually. -->
+        <!-- The icons in the section below are hidden from screen readers, but displayed visually. -->
         <div class="benefits">
             <h3>Lead Generation</h3>
             <div aria-hidden="true">
                 <img src="./assets/images/lead-generation.png"
-                    alt="Funnel with gear at top and money coming out bottom." />
+                    alt="" />
             </div>
             <p>
                 Inbound strategies for lead generation require less work for your
@@ -90,7 +89,7 @@
         <div class="benefits">
             <h3>Brand Awareness</h3>
             <div aria-hidden="true">
-                <img src="./assets/images/brand-awareness.png" alt="Suit jacket with light bulb in place of head." />
+                <img src="./assets/images/brand-awareness.png" alt="" />
             </div>
             <p>
                 Users find your business through paid and organic searches, increasing
@@ -100,7 +99,7 @@
         <div class="benefits">
             <h3>Cost Management</h3>
             <div aria-hidden="true">
-                <img src="./assets/images/cost-management.png" alt="Gear surrounded by coins." />
+                <img src="./assets/images/cost-management.png" alt="" />
             </div>
             <p>
                 As the search ranking for your business increases, your advertising
@@ -108,9 +107,11 @@
             </p>
         </div>
     </section>
+
     <footer>
+        <!-- The heart is tagged as an image with a descripive aria-label for screen readers. -->
         <p>Made with <span role="img" aria-label="love">❤️</span> by Horiseon</p>
-        <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
+        <p>&copy; 2021 Horiseon Social Solution Services, Inc.</p>
     </footer>
 
 </body>

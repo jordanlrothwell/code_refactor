@@ -18,6 +18,18 @@ header {
   background-color: #2a607c;
 }
 
+/* This code visually hides the element, but leaves it accessible to screen readers. */
+
+.sr_link {
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
 header h1 {
   display: inline-block;
   font-size: 48px;
@@ -47,19 +59,7 @@ p {
   font-size: 16px;
 }
 
-/* This code visually hides the element, but leaves it accessible to screen readers. */
-
-.sr_link {
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-/* The image this applies to does not contain meaningful content; it has therefore been left */
+/* The hero image this applies to does not contain meaningful content; it has therefore been left as a background image without any alt-text. */
 
 .hero-image {
   height: 800px;
@@ -85,6 +85,11 @@ main {
   display: inline-block;
   margin-left: 20px;
 }
+
+/**
+ * NOTE: The below section has low contrast between font and background colours, however the original design has been preserved due to
+ *   project requirements.Increasing the contrast in future will allow colour-blind or partially-sighted users greater accessibility.
+ */
 
 section {
   margin-right: 20px;
