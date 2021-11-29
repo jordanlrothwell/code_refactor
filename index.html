@@ -11,12 +11,13 @@
 
 <body>
 
-    <!-- Header containing navigation links (the only interactive elements on the page). -->
+    <!-- Header -->
     <header>
         <h1>Horiseon</h1>
+        <!-- Navigation -->
         <nav>
-            <!-- The description below is only visible to screen readers, and makes it clear that they local (rather than external) links. -->
-            <p class="sr_link">The following local navigation links redirect focus to the main page content.</p>
+            <p class="sr_link">The following local navigation links redirect focus to the main page content.</p> <!-- Accessibility feature
+                                                                                                                          (see readme)  -->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -31,10 +32,10 @@
         </nav>
     </header>
 
-    <!-- Hero image - the corresponding CSS displays it as a background image (no alt description). -->
+    <!-- Hero image -->
     <div class="hero-image"></div>
 
-    <!-- Container for the page's main content. -->
+    <!-- Main content -->
     <main>
         <div class="main_content" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
@@ -72,12 +73,11 @@
         </div>
     </main>
 
-    <!-- Container for right-hand side of page. -->
+    <!-- Sidebar -->
     <section>
-        <!-- The icons in the section below are hidden from screen readers, but displayed visually. -->
         <div class="benefits">
             <h3>Lead Generation</h3>
-            <div aria-hidden="true">
+            <div aria-hidden="true"> <!-- Hides icons from screen readers (no added meaning/decorative only) -->
                 <img src="./assets/images/lead-generation.png"
                     alt="" />
             </div>
@@ -88,7 +88,7 @@
         </div>
         <div class="benefits">
             <h3>Brand Awareness</h3>
-            <div aria-hidden="true">
+            <div aria-hidden="true"> <!-- Hidden icon -->
                 <img src="./assets/images/brand-awareness.png" alt="" />
             </div>
             <p>
@@ -98,7 +98,7 @@
         </div>
         <div class="benefits">
             <h3>Cost Management</h3>
-            <div aria-hidden="true">
+            <div aria-hidden="true"> <!-- Hidden icon -->
                 <img src="./assets/images/cost-management.png" alt="" />
             </div>
             <p>
@@ -107,10 +107,9 @@
             </p>
         </div>
     </section>
-
+    <!-- Footer -->
     <footer>
-        <!-- The heart is tagged as an image with a descripive aria-label for screen readers. -->
-        <p>Made with <span role="img" aria-label="love">❤️</span> by Horiseon</p>
+        <p>Made with <span role="img" aria-label="love">❤️</span> by Horiseon</p> <!-- Accessibility feature (see readme) -->
         <p>&copy; 2021 Horiseon Social Solution Services, Inc.</p>
     </footer>
 
