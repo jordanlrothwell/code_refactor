@@ -40,9 +40,11 @@ A <span style="color:orange">hidden description </span> was added before the nav
 The site's accessibility was periodically tested using the WAVE Web Accessibility Evaluation Tool and Chrome's Lighthouse Web Developer Tool. Links to access these resources have been listed below.
 
 ### WAVE:
+
 ![wave test](assets\images\wave.PNG)
 
 ### Lighthouse:
+
 ![lighthouse test](assets\images\lighthouse.PNG)
 
 ---
