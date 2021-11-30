@@ -18,7 +18,7 @@ header {
   background-color: #2a607c;
 }
 
-/* This code visually hides the element, but leaves it accessible to screen readers. */
+/* The code below visually hides the element, but leaves it accessible to screen readers. */
 
 .sr_link {
     clip: rect(1px 1px 1px 1px);
@@ -59,7 +59,10 @@ p {
   font-size: 16px;
 }
 
-/* The hero image this applies to does not contain meaningful content; it has therefore been left as a background image without any alt-text. */
+/* 
+ * ACCESSIBILITY NOTE: The hero image the following applies to does not contain meaningful 
+ *   content. It has therefore been left as a background image without any alt-text. 
+ */
 
 .hero-image {
   height: 800px;
@@ -86,9 +89,9 @@ main {
   margin-left: 20px;
 }
 
-/**
- * NOTE: The below section has low contrast between font and background colours, however the original design has been preserved due to
- *   project requirements.Increasing the contrast in future will allow colour-blind or partially-sighted users greater accessibility.
+/*
+ * ACCESSIBILITY NOTE: The below section has low contrast between font and background colours, however the original design has been preserved 
+ *   due to project requirements. Increasing the contrast in future will allow colour-blind or partially-sighted users greater accessibility.
  */
 
 section {
