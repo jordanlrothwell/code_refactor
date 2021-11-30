@@ -40,10 +40,10 @@ A <span style="color:orange">hidden description </span> was added before the nav
 The site's accessibility was periodically tested using the WAVE Web Accessibility Evaluation Tool and Chrome's Lighthouse Web Developer Tool. Links to access these resources have been listed below.
 
 ### WAVE:
-![wave test](https://ibb.co/ccX3yM6)
+![wave test](assets/images/wave.png)
 
 ### Lighthouse:
-![lighthouse test](https://ibb.co/nQjhfqt)
+![lighthouse test](assets/images/lighthouse.png)
 
 ---
 ## ⌚ Future Improvements
@@ -51,7 +51,7 @@ Accessibility could be improved for visually-impaired persons by increasing the 
 
 The site's sluggish performance limits accessibility for users with slower internet connections or less powerful devices. Lighthouse suggests the <span style="color:orange">bulky images</span> are the main culprits, and could be improved in the following ways:
 
-![image_shrink](https://ibb.co/jTzzB7r)
+![image_shrink](assets/images/image_shrink.png)
 
 ---
 ## 🏆 Credits
