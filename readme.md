@@ -41,11 +41,11 @@ The site's accessibility was periodically tested using the WAVE Web Accessibilit
 
 ### WAVE:
 
-![wave test](assets\images\wave.PNG)
+![wave test](assets/images/wave.png)
 
 ### Lighthouse:
 
-![lighthouse test](assets\images\lighthouse.PNG)
+![lighthouse test](assets/images/lighthouse.png)
 
 ---
 ## ⌚ Future Improvements
@@ -53,7 +53,7 @@ Accessibility could be improved for visually-impaired persons by increasing the 
 
 The site's sluggish performance limits accessibility for users with slower internet connections or less powerful devices. Lighthouse suggests the <span style="color:orange">bulky images</span> are the main culprits, and could be improved in the following ways:
 
-![image_shrink](assets\images\image_shrink.PNG)
+![image_shrink](assets/images/image_shrink.png)
 
 ---
 ## 🏆 Credits
